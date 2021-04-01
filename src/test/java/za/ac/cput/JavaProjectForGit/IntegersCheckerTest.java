@@ -1,7 +1,7 @@
 package za.ac.cput.JavaProjectForGit;
 
 /**
- * @author Bheka Gumede 217180833
+ * @author Bheka Gumede 218223420
  * This program check integers
  *
  */
