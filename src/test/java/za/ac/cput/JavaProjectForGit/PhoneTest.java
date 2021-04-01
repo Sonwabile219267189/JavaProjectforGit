@@ -21,8 +21,8 @@ class PhoneTest {
 
     @BeforeEach
     void setUp() {
-        //phone1 = new Phone();
-        //phone2 = new Phone();
+        phone1 = new Phone();
+        phone2 = new Phone();
         phone3 = phone1;
     }
 
@@ -30,8 +30,6 @@ class PhoneTest {
     @Test
     void testIdentity()
     {
-        phone1 = new Phone();
-        phone2 = new Phone();
         System.out.println("Test values in two different objects");
         phone1.setBrand("Motorola");
         phone2.setBrand("Motorola");
@@ -44,7 +42,6 @@ class PhoneTest {
     @Timeout(value = 8000)
     public void testRunApplication()
     {
-        phone2 = new Phone();
         phone2.setProcessorPower(3);
         System.out.println("Expected result is: " + phone2.runApplication());
         assertEquals("Successfully open Application",phone2.runApplication());
@@ -56,7 +53,6 @@ class PhoneTest {
     @Test
     public void testSetBrand()
     {
-        Phone phone1 = new Phone();
         phone1.setBrand("Samsung");
         assertEquals("Samsung",phone1.getBrand());
         //fail("Test was failed intentially");
@@ -67,7 +63,6 @@ class PhoneTest {
     @Ignore
     public void testSetSerialNumber()
     {
-        Phone phone1 = new Phone();
         phone1.setSerialNumber(2781992);
         assertEquals(2781992, phone1.getSerialNumber());
     }
