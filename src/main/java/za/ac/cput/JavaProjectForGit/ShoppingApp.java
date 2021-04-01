@@ -12,8 +12,8 @@ public class ShoppingApp {
         Product p1 = new Product("Hand sanitizer",70.00);
         Product p2 = new Product ("Mask",25.00);
 
-        System.out.println(p1 == p2);//equality
-        System.out.println(p1.equals(p2)); // identity
+       // System.out.println(p1 == p2);//equality
+       // System.out.println(p1.equals(p2)); // identity
 
 
     }
