@@ -19,18 +19,12 @@ public class OdOrEvenTest {
         OdOrEven testItem = new OdOrEven();
         String value=testItem.check(3);
         assertNotNull(value);
-
-
-    }
-    @Test
-    public void minus(){
-        OdOrEven testItem = new OdOrEven();
-        String value=testItem.check(-3);
-        assertEquals("not even",value);
         fail();
 
-
     }
+
+
+
     @Test
     public void testIdentity(){
         OdOrEven testItem = new OdOrEven();
