@@ -1,4 +1,6 @@
 package za.ac.cput.JavaProjectForGit;
+//Autohor Sn219104891
+//Funtions determine if int is odd or even
 
 public class OdOrEven {
 

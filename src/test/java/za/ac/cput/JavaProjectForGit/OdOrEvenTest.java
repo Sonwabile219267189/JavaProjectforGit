@@ -4,8 +4,10 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+// Austohor Sn219104891
 
 public class OdOrEvenTest {
+    //timesout after certain amount
     @Test(timeout = 10000)
 
     public void testAwnser(){
