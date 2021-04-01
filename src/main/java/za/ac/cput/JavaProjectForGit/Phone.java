@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * Author: Sonwabile Gxoyiya
  * Student Number: 219267189
@@ -5,10 +6,13 @@
  * File: Phone.java
  */
 
+=======
+>>>>>>> master
 package za.ac.cput.JavaProjectForGit;
 
 public class Phone {
 
+<<<<<<< HEAD
     private int serialNumber;
     private String brand;
     private String model;
@@ -68,4 +72,7 @@ public class Phone {
                 ", processorPower=" + processorPower +
                 '}';
     }
+=======
+    //cd Javaprivate
+>>>>>>> master
 }
